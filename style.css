@@ -39,7 +39,7 @@ body.light{background:#f3f7fc;color:#07152f}body.light .site-header{background:#
   0%, 100% { opacity: .72; }
   50% { opacity: 1; }
 }
-.logo-stage { animation: logoFloat 6s ease-in-out infinite; transform-origin: center; }
+.logo-stage { animation: logoFloat 6s ease-in-out infinite; transform-origin: center; margin-top: -55px; }
 .orbit-a { animation: orbitSpin 38s linear infinite; }
 .orbit-b { animation: orbitSpinReverse 46s linear infinite; }
 .card-code { animation: cardFloatLeft 5s ease-in-out infinite; }
@@ -88,7 +88,7 @@ body.light{background:#f3f7fc;color:#07152f}body.light .site-header{background:#
 @keyframes loaderOrbit{to{transform:rotate(360deg)}}@keyframes loaderLogo{0%,100%{transform:scale(.95);opacity:.85}50%{transform:scale(1.02);opacity:1}}@keyframes loaderProgress{0%{width:0}45%{width:48%}80%{width:86%}100%{width:100%}}
 body.light .social-directory-links a{background:#fff;color:#14355a;border-color:#d3e1f0}body.light .social-directory p:not(.eyebrow){color:#566d87}body.light .social-directory{border-color:#d2e1ee}
 @media(max-width:1050px){.top-inner>span{display:none}.social-top{gap:9px}.hero{column-gap:12px}.hero h1{font-size:clamp(54px,7vw,85px)}}
-@media(max-width:760px){.top-inner{padding:9px 5%;gap:12px}.social-top{gap:10px}.social-top a{font-size:9px}.social-top a:nth-child(n+4){display:none}.hero{min-height:unset}.hero-copy{padding-left:0}.social-directory{flex-direction:column;align-items:stretch;gap:20px}.social-directory-links{min-width:0}.site-header{top:0}.loader-center h2{font-size:clamp(25px,7vw,44px)}}
+@media(max-width:760px){.top-inner{padding:9px 5%;gap:12px}.social-top{gap:10px}.social-top a{font-size:9px}.social-top a:nth-child(n+4){display:none}.hero{min-height:unset}.hero-copy{padding-left:0}.logo-stage{margin-top:-15px}.social-directory{flex-direction:column;align-items:stretch;gap:20px}.social-directory-links{min-width:0}.site-header{top:0}.loader-center h2{font-size:clamp(25px,7vw,44px)}}
 @media(max-width:400px){.social-top a:nth-child(n+3){display:none}.loader-subtitle{font-size:8px}.social-directory-links{grid-template-columns:1fr 1fr}}
 @media(prefers-reduced-motion:reduce){.loader-ring,.loader-logo,.loader-progress-fill{animation:none}.loader-progress-fill{width:100%}}
 
